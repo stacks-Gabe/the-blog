@@ -89,6 +89,26 @@ header {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
 }
 
+#sign_in_button{
+  background: linear-gradient(135deg, green, darkgreen); 
+  color: white;
+  font-family: "Tangerine", cursive;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 12px 24px;
+  margin-left: 40px;
+  border: none;
+  border-radius: 8px; 
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0); 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#sign_in_button:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
 #greeting{
   font-family: "Tangerine", cursive;
   font-size: 30px;
