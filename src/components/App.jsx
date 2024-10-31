@@ -31,8 +31,10 @@ export default function App() {
   return (
     <div className="App">
       <header>
-        Blog
-        {user && <button onClick={() => setWriting(true)}>New Article</button>}
+        <div id = "blog_title">
+          The Blog
+        </div>
+        {user && <button id = "NA_button" onClick={() => setWriting(true)}>New Article</button>}
         {!user ? <SignIn /> : <SignOut />}
       </header>
 

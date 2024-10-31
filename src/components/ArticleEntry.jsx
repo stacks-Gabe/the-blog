@@ -27,7 +27,7 @@ export default function ArticleEntry({ addArticle }) {
           value={body}
           onChange={(e) => setBody(e.target.value)}
         ></textarea>
-        <button type="submit">Create</button>
+        <button id = "submit_button" type="submit">Create</button>
       </form>
     </div>
   )
